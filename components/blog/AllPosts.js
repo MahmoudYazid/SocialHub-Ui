@@ -4,6 +4,7 @@ import { GoArrowUpRight } from 'react-icons/go'
 import Footer from './footer'
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
 import { useSelector } from 'react-redux'
+import Link from 'next/link'
 const InterFont = Inter({
     subsets: ['latin']
 })
@@ -12,7 +13,7 @@ export default function AllPosts() {
     const Mode = useSelector((state) => state.ModeSlicerReducer.mode)
 
     const Card = () => (
-        <div className=' hover:border-b-2 hover:cursor-pointer hover:border-white mb-2 bg-[#090D1F]  w-[90%]  lg:w-[28rem] min-h-[8rem]  grid grid-rows-[2.5fr_.5fr_.2fr_1fr]'>
+        <Link  href={'/blog/1'} className=' hover:border-b-2 hover:cursor-pointer hover:border-white mb-2 bg-[#090D1F]  w-[90%]  lg:w-[28rem] min-h-[8rem]  grid grid-rows-[2.5fr_.5fr_.2fr_1fr]'>
             <div className='w-[100%] h-[100%] bg-[#090D1F] '>
                 <img src='/imgforBlog3.jpg' className='w-auto bg-cover min-h-[100%] '></img>
             </div>
@@ -41,10 +42,10 @@ export default function AllPosts() {
             </div>
 
 
-        </div>
+        </Link>
     )
     const CardLight = () => (
-        <div className='mb-2 bg-white  w-[90%]  lg:w-[28rem] min-h-[8rem]  grid grid-rows-[2.5fr_.5fr_.2fr_1fr] hover:border-b-2 hover:cursor-pointer hover:border-black'>
+        <Link href={'/blog/1'} className='mb-2 bg-white  w-[90%]  lg:w-[28rem] min-h-[8rem]  grid grid-rows-[2.5fr_.5fr_.2fr_1fr] hover:border-b-2 hover:cursor-pointer hover:border-black'>
             <div className='w-[100%] h-[100%] bg-white '>
                 <img src='/imgforBlog3.jpg' className='w-auto bg-cover min-h-[100%] '></img>
             </div>
@@ -73,7 +74,7 @@ export default function AllPosts() {
             </div>
 
 
-        </div>
+        </Link>
     )
     const LightModeCom = () => (
         <div className='max-h-[16rem] bg-white grid grid-rows-[1fr_.1fr_.1fr]   max-w-[100%] '>

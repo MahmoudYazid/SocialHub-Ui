@@ -2,6 +2,7 @@ import React from 'react'
 import { Inter } from 'next/font/google'
 import { GoArrowUpRight } from 'react-icons/go'
 import { useSelector } from 'react-redux'
+import Link from 'next/link'
 
 const InterFont = Inter({
   subsets: ['latin']
@@ -10,7 +11,7 @@ export default function Recent() {
   const Mode = useSelector((state) => state.ModeSlicerReducer.mode)
 
   const CardRighttLight = () => (
-    <div className=' gap-2 bg-white min-w-[90%] min-h-[20rem]     grid grid-col-[1fr]  lg:grid-cols-[1fr_1fr]'>
+    <Link href={'/blog/1'}  className=' gap-2 bg-white min-w-[90%] min-h-[20rem]     grid grid-col-[1fr]  lg:grid-cols-[1fr_1fr]'>
       <div className='w-[100%] h-[70%] bg-white justify-center items-center '>
         <img src='/imgforBlog3.jpg' className='min-w-[100%] bg-cover min-h-[70%] '></img>
       </div>
@@ -35,10 +36,10 @@ export default function Recent() {
         </div>
 
       </div>
-    </div>
+    </Link>
   )
   const CardLeftLight = () => (
-    <div className='bg-white  min-w-[90%] h-[30rem]  grid grid-rows-[2.5fr_.5fr_.2fr_1fr]'>
+    <Link href={'/blog/1'} className='bg-white  min-w-[90%] h-[30rem]  grid grid-rows-[2.5fr_.5fr_.2fr_1fr]'>
       <div className='w-[100%] h-[100%] bg-white '>
         <img src='/desktopimgBlog.svg' className='min-w-[100%] bg-cover '></img>
       </div>
@@ -67,7 +68,7 @@ export default function Recent() {
       </div>
 
 
-    </div>
+    </Link>
   )
 
   //////////////////

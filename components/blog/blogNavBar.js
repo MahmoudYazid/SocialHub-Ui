@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { FormattedMessage, useIntl } from "react-intl";
 import { Cairo } from 'next/font/google'
 import { Space_Grotesk } from 'next/font/google'
+import Link from 'next/link';
 const CairoFont = Cairo({
     subsets: ['latin']
 })
@@ -72,15 +73,15 @@ export default function Navbar() {
 
 
 
-                <a href='#Services' className='lg:inline-flex hidden'>
+                <a href='/#Services' className='lg:inline-flex hidden'>
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{servicesformatMsg}</p>
 
                 </a>
-                <a className='lg:inline-flex hidden' href='#UseCases'>
+                <a className='lg:inline-flex hidden' href='/#UseCases'>
                     <p className={` font-[400] text-[20px] hover:cursor-pointer font-bold ${lang == 'en' ? GeneralFont.className : CairoFont.className}`}>{usecasesformatMsg}</p>
 
                 </a>
-                <p className={` ${lang == 'en' ? GeneralFont.className : CairoFont.className} lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</p>
+                <Link href={'/'} className={` ${lang == 'en' ? GeneralFont.className : CairoFont.className} lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</Link>
 
                 <div class="toggle-switch lg:inline-flex hidden">
                     <LIGHTSwitch></LIGHTSwitch>
@@ -94,22 +95,21 @@ export default function Navbar() {
 
             <section onTouchMove={() => ChangeSideBarFunc()} className={`z-20  ${openSideBar} lg:hidden gap-[2.5rem] min-w-[50%] min-h-[100%] fixed flex flex-col items-center right-0 justify-start mt-5 bg-white`}>
                 <div className='gap-[2.5rem] m-3 flex flex-col items-center  justify-center bg-whit'>
-                    <a href='#UseCases'>
-                        <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className}  font-[400] text-[20px] hover:cursor-pointer font-bold`}>{ReqAQouteformatMsg}</p>
-                    </a>
+                    
+                    <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className}  font-[400] text-[20px] hover:cursor-pointer font-bold`}>{ReqAQouteformatMsg}</p>
+                    
 
-
-                    <a href='#UseCases'>
+                    <a href='/#UseCases'>
                         <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className}  font-[400] text-[20px] hover:cursor-pointer font-bold`}>{usecasesformatMsg}</p>
                     </a>
-                    <a href='#Services'>
+                    <a href='/#Services'>
                         <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`}>{servicesformatMsg}</p>
                     </a>
 
 
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`} onClick={() => dispach(changeMode())}> {DarkModeformatMsg} </p>
 
-                    <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</p>
+                    <Link href={'/'} className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</Link>
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold `} onClick={() => ChangeSideBarFunc()}>{closeformatMsg}</p>
                 </div>
             </section></>
@@ -123,15 +123,15 @@ export default function Navbar() {
                 <button class={`${Mode == 'dark' ? 'reqbutton-Dm' : 'reqbutton'}  mr-[15%] hidden lg:inline-flex }`}>
                     <p> {ReqAQouteformatMsg}</p>
                 </button>
-                <a href='#Services'>
+                <a href='/#Services'>
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{servicesformatMsg}</p>
 
                 </a>
-                <a href='#UseCases'>
+                <a href='/#UseCases'>
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{usecasesformatMsg}</p>
 
                 </a>
-                <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</p>
+                <Link href={'/'} className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</Link>
 
                 <LIGHTSwitch></LIGHTSwitch>
 
@@ -144,16 +144,16 @@ export default function Navbar() {
 
                     <button class="RequQBtm text-white">
                         {ReqAQouteformatMsg}            </button>
-                    <a href='#UseCases'>
+                    <a href='/#UseCases'>
                         <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`}>{usecasesformatMsg}</p>
                     </a>
-                    <a href='#Services'>
+                    <a href='/#Services'>
                         <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`}>{servicesformatMsg}</p>
                     </a>
 
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`} onClick={() => dispach(changeMode())}>{LightModeformatMsg}</p>
 
-                    <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`}>{aboutusformatMsg}</p>
+                    <Link href={'/'} className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`}>{aboutusformatMsg}</Link>
                     <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`} onClick={() => ChangeSideBarFunc()}>{closeformatMsg}</p>
                 </div>
             </section></>

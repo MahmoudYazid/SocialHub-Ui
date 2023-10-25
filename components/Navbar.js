@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { FormattedMessage, useIntl } from "react-intl";
 import { Cairo } from 'next/font/google'
 import { Space_Grotesk } from 'next/font/google'
+import Link from 'next/link';
 const CairoFont = Cairo({
   subsets: ['latin']
 })
@@ -24,6 +25,7 @@ export default function Navbar() {
   const servicesformatMsg = intl.formatMessage({ id: "page.navbar.services" });
   const ReqAQouteformatMsg = intl.formatMessage({ id: "page.navbar.ReqAQoute" });
   const closeformatMsg = intl.formatMessage({ id: "page.navbar.close" });
+  const blogFormatMsg = intl.formatMessage({ id: "page.navbar.blog" });
 
   const lang = intl.formatMessage({ id: "lang" });
 
@@ -81,6 +83,7 @@ export default function Navbar() {
 
           </a>
           <p className={` ${lang == 'en' ? GeneralFont.className : CairoFont.className} lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</p>
+          <Link href={'/blog/blog'} className={` ${lang == 'en' ? GeneralFont.className : CairoFont.className} lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{blogFormatMsg}</Link>
 
           <div class="toggle-switch lg:inline-flex hidden">
             <LIGHTSwitch></LIGHTSwitch>
@@ -110,6 +113,8 @@ export default function Navbar() {
             <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`} onClick={() => dispach(changeMode())}> {DarkModeformatMsg} </p>
             
             <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</p>
+            <Link href={'/blog/blog'} className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold`}>{blogFormatMsg}</Link>
+
             <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} font-[400] text-[20px] hover:cursor-pointer font-bold `} onClick={() => ChangeSideBarFunc()}>{closeformatMsg}</p>
           </div>
         </section></>
@@ -132,6 +137,7 @@ export default function Navbar() {
 
           </a>
           <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{aboutusformatMsg}</p>
+          <Link href={'/blog/blog'} className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white lg:inline-flex hidden font-[400] text-[20px] hover:cursor-pointer font-bold`}>{blogFormatMsg}</Link>
 
           <LIGHTSwitch></LIGHTSwitch>
 
@@ -154,6 +160,8 @@ export default function Navbar() {
             <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`} onClick={() => dispach(changeMode())}>{LightModeformatMsg}</p>
 
             <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`}>{aboutusformatMsg}</p>
+            <Link href={'/blog/blog'} className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`}>{blogFormatMsg}</Link>
+
             <p className={`${lang == 'en' ? GeneralFont.className : CairoFont.className} text-white font-[400] text-[20px] hover:cursor-pointer`} onClick={() => ChangeSideBarFunc()}>{closeformatMsg}</p>
           </div>
         </section></>
