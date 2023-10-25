@@ -1,0 +1,6 @@
+.coverflow-carousel {
+  .slick-center {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+}

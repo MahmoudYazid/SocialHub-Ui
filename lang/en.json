@@ -1,0 +1,117 @@
+{
+    "lang": "en",
+    "page.ctaCard.title": "Let’s make things happen",
+    "page.ctaCard.desc": "Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.",
+    "page.ctaCard.btm": "Get your proposal",
+
+
+    "page.navbar.aboutus": "About us",
+    "page.navbar.DarkMode": "Dark Mode",
+    "page.navbar.LightMode": "Light Mode",
+    "page.navbar.usecases": "Use Cases",
+    "page.navbar.services": "Services",
+    "page.navbar.ReqAQoute": "Request A Quote",
+    "page.navbar.close": "close",
+
+
+    "page.bookconsult.title":"About Social Hub",
+    "page.bookconsult.desc": "We rely on clear strategies to ensure achieving results and software development based on your feedback and changing needs. We will work on providing a software solution that meets your long-term requirements",
+    "page.bookconsult.btm": "Book a consultation",
+
+    "page.service.head.title": "Services",
+    "page.service.head.desc": "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:",
+    "page.service.body.SearchEngineOptimization": "Search engine optimization",
+    "page.service.body.PayPerClickAdvertising": "Pay-per-click advertising",
+    "page.service.body.SocialMediaMarketing": "Social Media Marketing",
+    "page.service.body.EmailMarketing": "Email Marketing",
+    "page.service.body.ContentCreation": "Content Creation",
+    "page.service.body.AnalyticsAndTracking": "Analytics and Tracking",
+    "page.service.body.WebDevelopment": "Web Development",
+    "page.service.body.MobileDevelopment": "Mobile Development",
+    "page.service.body.learnmore": "Learn More",
+
+
+    "page.CaseStudy.head.title": "Case Studies",
+    "page.CaseStudy.head.desc": "Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies",
+    "page.CaseStudy.body.card1.desc": "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+    "page.CaseStudy.body.card2.desc": "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
+    "page.CaseStudy.body.card3.desc": "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
+    "page.CaseStudy.body.card.learnmore": "Learn More",
+
+
+    "page.workingProcess.head.title": "Our Working Process",
+    "page.workingProcess.head.desc": "Step-by-Step Guide to Achieving Your Business Goals",
+    "page.workingProcess.body.card1.title": "Consultation",
+    "page.workingProcess.body.card2.title": "Research and Strategy Development",
+    "page.workingProcess.body.card3.title": "Implementation",
+    "page.workingProcess.body.card4.title": "Monitoring and Optimization",
+    "page.workingProcess.body.card5.title": "Reporting and Communication",
+    "page.workingProcess.body.card6.title": "Continual Improvement ",
+
+
+    "page.workingProcess.body.card.desc1": "During the initial consultation, we will discuss your project requirements and software objectives. We will listen to your needs and understand the problem you want to solve through software development.",
+    "page.workingProcess.body.card.desc2": "Based on your project requirements, we will research and develop a software strategy that effectively and systematically meets your needs. We will identify appropriate technologies and plan the software development processes.",
+    "page.workingProcess.body.card.desc3": "After creating the strategy, we will execute the programming and software development with high professionalism. We will translate the requirements into source code and create applications or software that meet your project's needs.",
+    "page.workingProcess.body.card.desc4": "We will monitor the performance of the software and adjust it as needed. We will look for possible errors and improvements to ensure the quality and sustainable performance of the software.",
+    "page.workingProcess.body.card.desc5": "We will provide regular reports on the project's progress and performance. Improvements and code changes will be documented, and continuous communication with you will ensure the achievement of your goals.",
+    "page.workingProcess.body.card.desc6": "We always strive for continuous improvement and software development based on your feedback and evolving needs. We will work to provide a software solution that meets your long-term requirements.",
+
+    "page.teams.head.title": "Team",
+    "page.teams.head.desc": "Meet the skilled and experienced team behind our successful digital marketing strategies",
+
+    "page.teams.Testimonials.title": "Testimonials",
+    "page.teams.Testimonials.desc": "Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services",
+
+    "page.teams.contactus.title": "Contact Us",
+    "page.teams.contactus.desc": "Connect with Us: Let's Discuss Your Digital Marketing Needs",
+    "page.teams.contactus.form.checkbox1": "Say Hi",
+    "page.teams.contactus.form.checkbox2": "Get a Quote",
+    "page.teams.contactus.form.nameinput": "Name",
+    "page.teams.contactus.form.emailInput": "Email",
+    "page.teams.contactus.form.MsgInput": "Message*",
+    "page.teams.contactus.form.Btm": "Book a consultation",
+
+
+
+    "page.footer.header.services": "Services",
+    "page.footer.header.aboutus": "About us",
+    "page.footer.header.usecases": "Use Cases",
+    "page.footer.form.left.email": "Email",
+    "page.footer.form.left.address": "Address",
+    "page.footer.form.left.phone": "Phone",
+    "page.footer.form.left.title": "Contact us:",
+    "page.footer.form.right.input": "Email",
+    "page.footer.form.right.Btm": "Subscribe to news",
+
+
+
+    "page.learnmore.DigitalMarketing.title": "Digital Marketing",
+    "page.learnmore.DigitalMarketing.desc": "إقتبس",
+   
+    "page.learnmore.SearchEngineOptimization.title": "Search engine optimization",
+    "page.learnmore.SearchEngineOptimization.desc": "We strive to help you achieve new levels of success on the internet. We work on setting desired goals for your business and conduct the necessary research to understand your target audience and identify key performance indicators. With these insights, we create customized marketing campaigns that span various social media platforms and digital media. Our ongoing goal is to establish you as a leader in your field by achieving a prominent position in Google search results. We enhance your online presence, increase brand visibility, and consequently boost your sales. We optimize your website to make it easily accessible to potential customers and enhance your brand's visibility across different social media platforms. In summary, we provide a comprehensive strategy that makes your website highly visible to users when they search for products or services related to your business. As a leading SEO company in Saudi Arabia and Kuwait, we offer everything you need to achieve these goals and enhance your online success. If you'd like to learn more about our SEO services, please contact us.",
+    
+    "page.learnmore.PayPerClickAdvertising.title": "Pay-per-click advertising",
+    "page.learnmore.PayPerClickAdvertising.desc": "PPC advertising, or Pay-Per-Click advertising, is one of the most important digital marketing strategies we offer. It's an effective way to promote your products or services online and attract targeted customers to your website. Here's a summary of this service: We analyze your business goals and target audience with precision. We then create a targeted PPC campaign aimed at potential customers searching for similar products or services. We create custom and engaging ads that attract your targeted audience. We use the right keywords and suitable visuals to grab attention. We carefully manage your campaign to maximize your budget. We monitor performance and continuously optimize the campaign. We analyze data and measure the campaign's performance accurately, allowing us to refine our strategies based on real results. Our goal is to increase the conversion rate and bring in new customers who interact with your site and become real clients. We provide regular reports that illustrate the performance and results of your campaign. We believe in complete transparency in our work.",
+    
+    "page.learnmore.SocialMediaMarketing.title": "Social Media Marketing",
+    "page.learnmore.SocialMediaMarketing.desc": "Social media marketing is a vital strategy for enhancing your online presence and effectively engaging with your target audience. It is one of the most critical digital marketing services we offer to achieve your online goals. Here's a summary of this service: We develop a tailored marketing strategy that aligns with your business goals and your target audience. We determine the best social media platforms to target. We create engaging and valuable content that targets your audience. We use images, text, videos, and more to capture their attention. We carefully manage social media accounts to interact with the audience, enhancing engagement and interaction. We design and execute paid advertising campaigns on social media to increase reach and interaction. We utilize advanced analytical tools to monitor the performance of your campaign and provide data-driven improvements. We offer regular reports that illustrate your campaign's performance and its impact on your sales and overall business.",
+    
+    
+    "page.learnmore.EmailMarketing.title": "Email Marketing",
+    "page.learnmore.EmailMarketing.desc": "Email marketing is an effective way to build strong customer relationships and boost your online sales. It's one of the essential digital marketing strategies we provide. Here's a summary of our service We begin by creating a customer database that includes contact information for subscribers interested in receiving your emails. We prepare personalized email messages that reflect your brand identity and target the unique needs and interests of your customers. We identify the optimal times to send email messages to ensure they reach the target audience at the right moment. We use tracking tools to monitor your campaign's performance and customer response, helping us make continuous improvements. We offer regular reports that outline your campaign's performance and its impact on your sales and business growth.",
+   
+   
+    "page.learnmore.ContentCreation.title": "Content Creation",
+    "page.learnmore.ContentCreation.desc": "Content creation is essential for the success of any online business. It aims to generate engaging and valuable content that captures the attention of your target audience and encourages interaction with your website. We start by understanding your website's audience and the specific publishing goals. This is done through market analysis, competitor research, and identifying what your audience needs. We produce unique and engaging content, including articles, videos, images, and more. This content aligns with your publishing objectives and the unique needs of your website. We ensure that content is well-optimized for search engines to increase visibility and reach, thereby attracting more organic visitors. We regularly manage and update content to ensure it remains fresh and relevant to your audience's needs. We utilize analytical tools to measure content performance and understand how your audience interacts with it. We encourage content sharing through social media to enhance its reach and audience interaction. High-quality content contributes to building a positive reputation for your brand and fostering trust with your audience.",
+    
+    "page.learnmore.AnalyticsAndTracking.title": "Analytics and Tracking",
+    "page.learnmore.AnalyticsAndTracking.desc": "The website analytics and tracking service is a vital tool for understanding and improving the performance of your website. It helps you collect and analyze data to understand visitor behavior and their needs. Here's a summary of this service: We collect information about each visitor to your website, such as the source of their visit, the pages they've visited, and the time spent on the site. We use advanced analytical tools to analyze data, extract patterns, and trends that inform strategic decision-making. We create customized reports that highlight your website's performance and provide recommendations for improvement. We regularly monitor your website's performance to understand how visitors interact with the content and pages. We set specific goals such as page visits, file downloads, or purchase actions and track their achievement. We use data to enhance conversion rates, increase sales, and achieve your website's objectives. We ensure that analytical tools integrate seamlessly with other platforms, including social media and advertising. We provide regular reports summarizing key results and recommendations for enhancing your website.",
+    
+    "page.learnmore.WebDevelopment.title": "Web Development",
+    "page.learnmore.WebDevelopment.desc": "Website development is vital because your website is the first impression your customers have of your business. Website design plays a critical role in whether visitors stay or leave your site. It's not uncommon for a user to leave a website within 50 milliseconds if the website design is unattractive or the browsing experience is inconvenient. The overall appearance of your site reflects the evolution of your business and makes it look modern and trustworthy. If users can't easily find contact information or your social media accounts, they may question the reliability of your website. For this reason, website design is crucial to ensure that users continue to engage with your site. Website design includes graphic design, user experience, search engine optimization, and creating engaging content. These elements must be carefully developed to ensure that your website captures and retains the attention of your visitors, contributing to the success of your online business.",
+    
+    "page.learnmore.MobileDevelopment.title": "Mobile Development",
+    "page.learnmore.MobileDevelopment.desc": "إقتبس"
+
+}
