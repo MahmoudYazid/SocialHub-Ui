@@ -91,7 +91,7 @@ export default function specificTopic() {
                     <CardLight></CardLight>
                     <CardLight></CardLight>
                 </div>
-                <div className='bg-red-200 min-h-[100%]'></div>
+                <div className='bg-white  min-h-[100%]'></div>
             </div>
 
         </div>
@@ -112,7 +112,7 @@ export default function specificTopic() {
                     <Card></Card>
                     <Card></Card>
                 </div>
-                <div className='bg-red-200 min-h-[100%]'></div>
+                <div className='bg-[#090D1F] min-h-[100%]'></div>
             </div>
 
         </div>
